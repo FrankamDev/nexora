@@ -1,13 +1,8 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
 
-    RewriteBase /
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
 
-    # Si le fichier ou dossier existe, on le laisse passer
-    RewriteCond %{REQUEST_FILENAME} -f [OR]
-    RewriteCond %{REQUEST_FILENAME} -d
-    RewriteRule ^ - [L]
-
-    # Sinon rediriger vers React
     RewriteRule ^ index.html [L]
 </IfModule>
