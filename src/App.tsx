@@ -1,7 +1,9 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import { Contact } from "./components/Contact"
+import  Contact  from "./pages/Contact"
+import  About  from "./pages/About"
 import Home from "./pages/Home"
 import { Urgence237 } from "./pages/Urgence237"
+import FloatingChat from "./components/FloatingChat"
 
 
 
@@ -13,11 +15,11 @@ const App = () => {
     <Routes>
       <Route path="/" element={<Home/>} />
       <Route path="/contact" element={<Contact/>} />
-      {/* <Route path="/services237" element={<Home/>} /> */}
+      <Route path="/about" element={<About/>} />
       <Route path="/services237" element={<Urgence237/>} />
     </Routes>
     </BrowserRouter>
-    
+    <FloatingChat/>
     </>
   )
 }

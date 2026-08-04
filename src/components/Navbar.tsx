@@ -107,8 +107,15 @@ export const Navbar: React.FC = () => {
               Urgence 237
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-omie-green group-hover:w-full transition-all duration-300" />
             </Link>
+            <Link
+              to="/about"
+              className="relative text-sm font-medium text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-white transition-colors group"
+            >
+              À propos
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-omie-green group-hover:w-full transition-all duration-300" />
+            </Link>
             <a
-              href="#contact"
+              href="/contact"
               className="relative text-sm font-medium text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-white transition-colors group"
             >
               Contact
@@ -138,7 +145,7 @@ export const Navbar: React.FC = () => {
             </motion.button>
 
             <a
-              href="tel:+237600000000"
+              href="tel:+237690372977"
               className="group flex items-center gap-2 bg-zinc-900 hover:bg-black dark:bg-omie-green dark:hover:bg-emerald-500 text-white px-5 py-2.5 rounded-xl text-sm font-semibold transition-all duration-300 shadow-lg shadow-omie-green/10 hover:shadow-xl hover:-translate-y-0.5 active:scale-[0.985]"
             >
               <Activity
@@ -215,7 +222,7 @@ export const Navbar: React.FC = () => {
                   </Link>
                 </motion.div>
                 <motion.a
-                  href="#contact"
+                  href="/contact"
                   onClick={() => setIsOpen(false)}
                   variants={linkVariants}
                   className="inline-block text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-200 active:text-omie-green dark:active:text-omie-green py-1.5 w-full"
@@ -229,7 +236,7 @@ export const Navbar: React.FC = () => {
                 className="w-full pt-6 border-t border-zinc-100 dark:border-zinc-900"
               >
                 <motion.a
-                  href="tel:+237600000000"
+                  href="tel:+237690372977"
                   whileTap={{ scale: 0.97 }}
                   onClick={() => setIsOpen(false)}
                   className="w-full bg-omie-green text-white py-4 rounded-2xl text-base font-semibold shadow-lg shadow-omie-green/20 active:bg-emerald-600 transition-colors flex items-center justify-center gap-2"

@@ -1,48 +1,175 @@
 <!doctype html>
-<html lang="fr">
+<html lang="fr-CM">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
-    <!-- Titre et Description SEO -->
-    <title>NEXORA - Dératisation & Désinfection Professionnelle à Yaoundé et Douala</title>
-    <meta name="description" content="Expert en dératisation, désinsectisation et désinfection à Yaoundé et Douala. Intervention d'urgence sous 2h. Garantie 6 mois. Solutions éco-responsables et certifiées." />
-    <meta name="keywords" content="dératisation Yaoundé, désinsectisation Douala, dératisation Cameroun, urgence nuisibles, désinfection, cafards, rats, guêpes, entreprise dératisation" />
+    <!-- ==================== SEO PRINCIPAL ==================== -->
+    <title>NEXORA | Dératisation, Désinsectisation & Désinfection Professionnelle à Yaoundé et Douala</title>
+    <meta name="description" content="NEXORA : Expert en dératisation, désinsectisation et désinfection à Yaoundé et Douala. Intervention d'urgence sous 2h, garantie 6 mois, produits éco-responsables certifiés. Rats, cafards, moustiques, guêpes éliminés rapidement." />
+    <meta name="keywords" content="dératisation Yaoundé, désinsectisation Douala, dératisation Cameroun, désinfection professionnelle, urgence nuisibles Yaoundé, entreprise dératisation Douala, traitement cafards, rats, moustiques, guêpes, blattes, Nexora 237" />
     <meta name="author" content="Nexora" />
-    <meta name="robots" content="index, follow" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="bingbot" content="index, follow" />
 
-    <!-- Canonical URL -->
+    <!-- Canonical -->
     <link rel="canonical" href="https://www.nexora.getomiie.com/" />
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <!-- Langue et géolocalisation (Local SEO) -->
+    <meta name="geo.region" content="CM-CE" />
+    <meta name="geo.placename" content="Yaoundé, Douala" />
+    <meta name="geo.position" content="3.848033;11.502075" />
+    <meta name="ICBM" content="3.848033, 11.502075" />
+    <meta name="language" content="French" />
 
-    <!-- Open Graph / Social Media (Très important pour le partage) -->
-    <meta property="og:title" content="NEXORA - Dératisation & Désinfection Rapide à Yaoundé & Douala" />
-    <meta property="og:description" content="Intervention urgente 24/7 contre cafards, rats, moustiques et autres nuisibles. Service professionnel avec garantie 6 mois." />
+    <!-- ==================== FAVICONS ==================== -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- ==================== OPEN GRAPH (Facebook, LinkedIn, WhatsApp...) ==================== -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Nexora 237" />
+    <meta property="og:title" content="NEXORA | Dératisation & Désinfection Professionnelle à Yaoundé et Douala" />
+    <meta property="og:description" content="Intervention urgente 24/7 contre rats, cafards, moustiques et nuisibles. Garantie 6 mois. Service professionnel, rapide et éco-responsable." />
+    <meta property="og:url" content="https://www.nexora.getomiie.com/" />
     <meta property="og:image" content="https://www.nexora.getomiie.com/og-image.jpg" />
+    <meta property="og:image:secure_url" content="https://www.nexora.getomiie.com/og-image.jpg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:url" content="https://www.nexora.getomiie.com/" />
-    <meta property="og:type" content="website" />
+    <meta property="og:image:alt" content="NEXORA - Dératisation et désinfection professionnelle à Yaoundé et Douala" />
     <meta property="og:locale" content="fr_CM" />
-    <meta property="og:site_name" content="Nexora 237" />
+    <meta property="og:locale:alternate" content="fr_FR" />
 
-    <!-- Twitter Card -->
+    <!-- ==================== TWITTER CARD ==================== -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="NEXORA - Dératisation & Désinfection à Yaoundé & Douala" />
-    <meta name="twitter:description" content="Intervention d'urgence 24/7. Garantie 6 mois. Service professionnel et écologique." />
+    <meta name="twitter:title" content="NEXORA | Dératisation & Désinfection à Yaoundé et Douala" />
+    <meta name="twitter:description" content="Intervention d'urgence sous 2h. Garantie 6 mois. Solutions professionnelles et écologiques contre tous les nuisibles." />
     <meta name="twitter:image" content="https://www.nexora.getomiie.com/og-image.jpg" />
+    <meta name="twitter:image:alt" content="NEXORA - Expert dératisation Yaoundé Douala" />
 
-    <!-- Autres meta utiles -->
+    <!-- ==================== THÈME & MOBILE ==================== -->
     <meta name="theme-color" content="#10b981" />
     <meta name="msapplication-TileColor" content="#10b981" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="format-detection" content="telephone=yes" />
 
+    <!-- ==================== PERFORMANCE ==================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+
+    <!-- ==================== STRUCTURED DATA (JSON-LD) - Très important ==================== -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://www.nexora.getomiie.com/#business",
+      "name": "NEXORA",
+      "alternateName": "Nexora 237",
+      "description": "Entreprise spécialisée en dératisation, désinsectisation et désinfection professionnelle à Yaoundé et Douala. Intervention rapide, garantie 6 mois, solutions éco-responsables.",
+      "url": "https://www.nexora.getomiie.com/",
+      "logo": "https://www.nexora.getomiie.com/logo.png",
+      "image": "https://www.nexora.getomiie.com/og-image.jpg",
+      "telephone": "+237690372977",
+      "email": "contact@nexora.getomiie.com",
+      "priceRange": "$$",
+      "currenciesAccepted": "XAF",
+      "paymentAccepted": "Cash, Mobile Money",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Yaoundé",
+        "addressRegion": "Centre",
+        "addressCountry": "CM"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 3.848033,
+        "longitude": 11.502075
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Yaoundé"
+        },
+        {
+          "@type": "City",
+          "name": "Douala"
+        }
+      ],
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      },
+      "sameAs": [
+        "https://www.facebook.com/nexora237",
+        "https://www.instagram.com/nexora237"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Services de lutte antiparasitaire",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Dératisation",
+              "description": "Élimination professionnelle des rats et souris avec garantie 6 mois"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Désinsectisation",
+              "description": "Traitement contre cafards, blattes, fourmis, moustiques et guêpes"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Désinfection",
+              "description": "Désinfection complète des locaux professionnels et particuliers"
+            }
+          }
+        ]
+      }
+    }
+    </script>
+
+    <!-- Schema supplémentaire : Organisation -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "NEXORA",
+      "url": "https://www.nexora.getomiie.com/",
+      "logo": "https://www.nexora.getomiie.com/logo.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+237690461830",
+        "contactType": "customer service",
+        "areaServed": "CM",
+        "availableLanguage": ["French"]
+      }
+    }
+    </script>
+
+    <!-- Styles -->
     <link href="/src/style.css" rel="stylesheet">
-    <script type="module" crossorigin src="/assets/index-BJ4Ge304.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-B7v7utRk.css">
+    <script type="module" crossorigin src="/assets/index-3l3teakg.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DoiutPs8.css">
   </head>
+
   <body>
     <div id="root"></div>
   </body>
