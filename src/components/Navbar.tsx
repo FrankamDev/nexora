@@ -87,7 +87,7 @@ export const Navbar: React.FC = () => {
           {/* DESKTOP MENU */}
           <div className="hidden md:flex items-center gap-x-10">
             <a
-              href="#accueil"
+              href="/"
               className="relative text-sm font-medium text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-white transition-colors group"
             >
               Accueil

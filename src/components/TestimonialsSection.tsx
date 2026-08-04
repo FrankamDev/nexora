@@ -352,7 +352,7 @@ export default function TestimonialsSection() {
   const activeTestimonial = data.items[currentIndex];
 
   return (
-    <section id="testimonials" className="relative py-16 md:py-28 bg-zinc-950 dark:bg-zinc-50 transition-colors duration-500 overflow-hidden border-b border-zinc-900 dark:border-zinc-200">
+    <section id="testimonials" className="relative py-16 md:py-28overflow-hidden dark:bg-zinc-950 bg-white transition-colors duration-500 overflow-hidden border-b border-zinc-900 dark:border-zinc-200">
       
       {/* Background Épuré */}
       <div className="absolute inset-0 z-0 pointer-events-none select-none">
@@ -360,7 +360,7 @@ export default function TestimonialsSection() {
         <div className="absolute bottom-0 right-1/4 w-[400px] h-[400px] bg-emerald-500/[0.02] dark:bg-emerald-500/[0.03] rounded-full blur-[120px]" />
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="relative z-10 max-w-7xl mx-auto  px-4 sm:px-6 lg:px-8">
         
         {/* EN-TÊTE DE LA SECTION */}
         <div className="text-center max-w-3xl mx-auto mb-12 md:mb-20">

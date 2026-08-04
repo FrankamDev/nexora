@@ -1,6 +1,7 @@
 import AboutPreview from "../components/AboutPreview";
 import CTASection from "../components/CTASection";
 import ExpertiseSection from "../components/ExpertiseSection";
+import Footer from "../components/Footer";
 import HeroSection from "../components/HeroSection";
 import { Navbar } from "../components/Navbar";
 import ProcessSection from "../components/ProcessSection";
@@ -21,6 +22,7 @@ export default function Home() {
       <WhyChooseUs />
       <TestimonialsSection/>
       <CTASection />
+      <Footer/>
     </div>
   );
 }

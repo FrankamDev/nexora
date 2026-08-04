@@ -24,38 +24,38 @@ export interface ExpertiseData {
 // ================= MOCK DATA =================
 const MOCK_EXPERTISE_DATA: ExpertiseData = {
   badgeLabel: "NOS DOMAINES D'EXPERTISE",
-  titleMain: "Une expertise globale au service de vos ",
-  titleHighlight: "environnements",
-  description: "Nous maîtrisons l'ensemble des dimensions nécessaires à la création d'espaces de travail intelligents et performants.",
-  ctaLabel: "Découvrir nos réalisations",
+  titleMain: "Une expertise complète au service de vos ",
+  titleHighlight: "espaces",
+  description: "Nous maîtrisons toutes les dimensions de la lutte antiparasitaire pour vous garantir des résultats durables et une tranquillité totale.",
+  ctaLabel: "Demander une intervention",
   items: [
     {
       id: "exp-1",
       iconType: "innovation",
-      title: "Innovation",
-      desc: "Conception d'expériences uniques et création de solutions avant-gardistes qui anticipent les besoins futurs des organisations.",
-      tag: "CRÉATIVITÉ",
+      title: "Dératisation",
+      desc: "Élimination efficace des rats et souris avec des méthodes ciblées, discrètes et garanties jusqu’à 6 mois.",
+      tag: "RATS & SOURIS",
     },
     {
       id: "exp-2",
       iconType: "strategy",
-      title: "Stratégie",
-      desc: "Définition de visions claires et d'une feuille de route alignée sur vos objectifs business et culturels.",
-      tag: "VISION",
+      title: "Désinsectisation",
+      desc: "Traitement professionnel contre cafards, blattes, fourmis, moustiques, guêpes et autres insectes nuisibles.",
+      tag: "INSECTES",
     },
     {
       id: "exp-3",
       iconType: "technology",
-      title: "Technologie",
-      desc: "Intégration intelligente de solutions digitales et physiques pour créer des environnements connectés et performants.",
-      tag: "INGÉNIERIE",
+      title: "Désinfection",
+      desc: "Désinfection complète des locaux professionnels et particuliers pour un environnement sain et sécurisé.",
+      tag: "HYGIÈNE",
     },
     {
       id: "exp-4",
       iconType: "organization",
-      title: "Organisation",
-      desc: "Optimisation des processus humains et structuration d'équipes pour une collaboration fluide et productive.",
-      tag: "HUMAIN",
+      title: "Prévention & Suivi",
+      desc: "Contrats d’entretien régulier et conseils personnalisés pour éviter toute réinfestation sur le long terme.",
+      tag: "MAINTENANCE",
     },
   ],
 };
@@ -98,7 +98,7 @@ export default function ExpertiseSection() {
   };
 
   return (
-    <section id="expertise" className="relative py-16 md:py-28 bg-zinc-950 dark:bg-zinc-50 transition-colors duration-500 overflow-hidden">
+    <section id="expertise" className="relative py-16 md:py-28overflow-hidden dark:bg-zinc-950 bg-white transition-colors duration-500 overflow-hidden">
       
       {/* Background */}
       <div className="absolute inset-0 z-0 pointer-events-none select-none">
@@ -178,7 +178,7 @@ export default function ExpertiseSection() {
                 </div>
 
                 <div className="mt-8 pt-4 border-t border-zinc-800/60 dark:border-zinc-100 flex items-center gap-2 text-xs font-bold text-zinc-500 dark:text-zinc-400 group-hover:text-emerald-400 dark:group-hover:text-emerald-500 transition-colors duration-300">
-                  <span>Explorer le pôle</span>
+                  <span>En savoir plus</span>
                   <ArrowRight size={14} className="transition-transform duration-300 group-hover:translate-x-1" />
                 </div>
               </motion.div>

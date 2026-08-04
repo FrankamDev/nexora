@@ -30,45 +30,49 @@ export interface ServicesData {
 // ================= MOCK DATA =================
 const MOCK_SERVICES_DATA: ServicesData = {
   badgeLabel: "NOS EXPERTISES",
-  titleLight: "Des solutions sur-mesure pour des environnements ",
-  titleGradient: "intelligents",
+  titleLight: "Des solutions professionnelles pour des espaces ",
+  titleGradient: "sains",
   titleEnd: ".",
-  description: "Nous intervenons à toutes les étapes de votre transformation : du conseil stratégique à l'accompagnement humain.",
-  ctaLabel: "Discuter de votre projet",
+  description:
+    "Nous intervenons rapidement à Yaoundé et Douala pour éliminer tous types de nuisibles et désinfecter vos locaux avec des méthodes certifiées.",
+  ctaLabel: "Demander une intervention",
   items: [
     {
       id: "srv-1",
       iconType: "strategy",
-      title: "Conseil Stratégique",
-      desc: "Audit complet de vos environnements de travail et définition d'une feuille de route personnalisée.",
-      tag: "STRATÉGIE",
+      title: "Dératisation",
+      desc: "Élimination complète des rats et souris avec des traitements ciblés et une garantie de résultat jusqu’à 6 mois.",
+      tag: "RATS & SOURIS",
     },
     {
       id: "srv-2",
       iconType: "digital",
-      title: "Transformation Digitale",
-      desc: "Conception et déploiement d’interfaces intelligentes.",
-      tag: "DIGITAL",
+      title: "Désinsectisation",
+      desc: "Traitement efficace contre cafards, blattes, fourmis, moustiques, guêpes et autres insectes nuisibles.",
+      tag: "INSECTES",
     },
     {
       id: "srv-3",
       iconType: "solutions",
-      title: "Solutions Entreprises",
-      desc: "Aménagement d'espaces hybrides et ergonomiques.",
-      tag: "AMÉNAGEMENT",
+      title: "Désinfection",
+      desc: "Désinfection complète des locaux professionnels et particuliers pour un environnement sain et sécurisé.",
+      tag: "HYGIÈNE",
     },
     {
       id: "srv-4",
       iconType: "human",
-      title: "Accompagnement",
-      desc: "Formation des équipes et optimisation continue.",
-      tag: "HUMAIN",
+      title: "Prévention & Suivi",
+      desc: "Contrats d’entretien régulier et conseils personnalisés pour éviter toute réinfestation durablement.",
+      tag: "MAINTENANCE",
     },
   ],
 };
 
 // ================= ICON MAP =================
-const ICONS: Record<ServiceItem["iconType"], React.ComponentType<{ size?: number; className?: string }>> = {
+const ICONS: Record<
+  ServiceItem["iconType"],
+  React.ComponentType<{ size?: number; className?: string }>
+> = {
   strategy: Lightbulb,
   digital: Monitor,
   solutions: Building2,
@@ -99,7 +103,6 @@ export default function ServicesSection() {
 
   return (
     <section className="relative py-16 md:py-28 bg-zinc-50 dark:bg-zinc-950 border-b border-zinc-200 dark:border-zinc-900 overflow-hidden">
-      
       {/* BACKGROUND */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute inset-0 bg-[radial-gradient(#e4e4e7_1px,transparent_1px)] dark:bg-[radial-gradient(#222226_1px,transparent_1px)] bg-[size:40px_40px] opacity-60" />
@@ -107,7 +110,6 @@ export default function ServicesSection() {
       </div>
 
       <div className="relative max-w-7xl mx-auto px-6">
-        
         {/* HEADER */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 mb-6">

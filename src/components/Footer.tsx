@@ -328,7 +328,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-zinc-950 dark:bg-zinc-50 border-t border-zinc-900 dark:border-zinc-200 pt-16 pb-8 md:pt-24 md:pb-12 transition-colors duration-500">
+    <footer className="bg-zinc-950 bg-white dark:bg-zinc-950 border-t  dark:border-zinc-200 pt-16 pb-8 md:pt-24 md:pb-12 transition-colors duration-500">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
